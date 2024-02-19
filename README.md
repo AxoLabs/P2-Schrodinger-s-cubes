@@ -3,6 +3,8 @@ A reimplementation of the cut Portal 2 reflector cube variant, the Schrödinger 
 
 ![image](https://github.com/AxoLabs/P2-Schrodinger-s-cubes/assets/125143965/5f55c2e2-452c-4994-b3d6-47644a9178ad)
 
+Note: This is the repository for the hammer version of Schrödinger's cubes. For the BEEMod package that adds them to the puzzlemaker, see https://github.com/AxoLabs/BEE2-Axos-Packages.
+
 ## List of assets
 - `schrodinger_cube_clean.vmf`/`schrodinger_cube_overgrown.vmf` are the dropper instances for these, for clean and overgrown styles respectively.
 - `schrodinger_cube_dropperless.vmf`/`schrodinger_cube_dropperless_overgrown.vmf` are the dropperless instances for these, for clean and overgrown styles respectively. They still need to be triggered like the dropper instances in order to actually spawn the cube.
