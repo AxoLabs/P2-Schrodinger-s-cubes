@@ -1,7 +1,7 @@
 # P2-Schrödinger's-cubes
 A reimplementation of the cut Portal 2 reflector cube variant, the Schrödinger cube, running almost entirely on pure Hammer logic. Provided are four instances for these; dropper and dropperless for clean and overgrown styles, as well as all the assets needed for them to work.
 
-![Zrzut ekranu (1243)](https://github.com/AxoLabs/P2-Schrodinger-s-cubes/assets/125143965/5f55c2e2-452c-4994-b3d6-47644a9178ad)
+![image](https://github.com/AxoLabs/P2-Schrodinger-s-cubes/assets/125143965/5f55c2e2-452c-4994-b3d6-47644a9178ad)
 
 ## List of assets
 - `schrodinger_cube_clean.vmf`/`schrodinger_cube_overgrown.vmf` are the dropper instances for these, for clean and overgrown styles respectively.
