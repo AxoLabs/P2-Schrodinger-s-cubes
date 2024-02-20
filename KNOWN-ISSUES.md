@@ -17,6 +17,13 @@ An issue with how the cubes detect lasers, which is by surrounding the cube in a
 
 ---
 
+## Paint is not shared between cubes
+![image](https://github.com/AxoLabs/P2-Schrodinger-s-cubes/assets/125143965/51aa426e-0e95-490e-b8b3-9594ca839d88)
+
+The gel type is not shared between linked cubes, whereas in Valve's version of the cubes it is. Unfortunately, this cannot be fixed because while it is possible to detect when a cube has been covered in gel, it's not actually possible to detect *which* gel it has been covered in, making it impossible to reimplement this functionality.
+
+---
+
 ## The overgrown textures for Schrödinger's cubes look ugly as hell
 ![image](https://github.com/AxoLabs/P2-Schrodinger-s-cubes/assets/125143965/07fb4a8d-9d4e-4f12-b503-89a95e6272f2)
 
