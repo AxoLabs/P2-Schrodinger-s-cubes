@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "272"
+	"mapversion" "267"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "272"
+	"mapversion" "267"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -40,7 +40,28 @@ world
 }
 entity
 {
-	"id" "11303"
+	"id" "11253"
+	"classname" "comp_relay"
+	"ctrl_type" "1"
+	"ctrl_value" "$autorespawn"
+	"delay" "0.0"
+	"targetname" "drop_nonetheless"
+	connections
+	{
+		"OnTrigger" "cube_spawner_0ForceSpawn0-1"
+	}
+	"origin" "32 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "11255"
 	"classname" "comp_relay"
 	"ctrl_type" "0"
 	"ctrl_value" "$autorespawn"
@@ -175,7 +196,7 @@ entity
 	"targetname" "cube_spawner_0"
 	connections
 	{
-		"OnEntitySpawned" "axo_catcher_modelRunScriptCodeself.SetModel(`models/props/schrodinger_cube.mdl`)0.03-1"
+		"OnEntitySpawned" "axo_catcher_modelRunScriptCodeself.SetModel(`models/props/schrodinger_cube_over.mdl`)0.03-1"
 		"OnEntitySpawned" "axo_catcherSetParentaxo_catcher_model0-1"
 		"OnEntitySpawned" "axo_catcher_modelAddOutputcubetype 10-1"
 		"OnEntitySpawned" "axo_catcherRunScriptCodeself.SetSize(Vector(-20, -20, -20), Vector(20, 20, 20))0-1"
@@ -196,7 +217,7 @@ entity
 	"angles" "0 0 0"
 	"ctrl_type" "0"
 	"ctrl_value" "1"
-	"model" "models/props/schrodinger_cube.mdl"
+	"model" "models/props/schrodinger_cube_over.mdl"
 	"skin" "0"
 	"origin" "0 0 48"
 	editor
@@ -322,27 +343,6 @@ entity
 }
 entity
 {
-	"id" "1121"
-	"classname" "comp_relay"
-	"ctrl_type" "1"
-	"ctrl_value" "$autorespawn"
-	"delay" "0.0"
-	"targetname" "drop_nonetheless"
-	connections
-	{
-		"OnTrigger" "cube_spawner_0ForceSpawn0-1"
-	}
-	"origin" "32 -32 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "1004"
 	"classname" "comp_relay"
 	"ctrl_type" "0"
@@ -420,7 +420,7 @@ entity
 	"cubetype" "2"
 	"drawinfastreflection" "1"
 	"fademindist" "-1"
-	"model" "models/props/schrodinger_cube.mdl"
+	"model" "models/props/schrodinger_cube_over.mdl"
 	"newskins" "1"
 	"paintpower" "4"
 	"physdamagescale" "0.1"

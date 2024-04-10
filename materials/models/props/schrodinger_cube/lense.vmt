@@ -1,0 +1,11 @@
+VertexLitGeneric {
+	$basetexture						"models/props/schrodinger_cube/lense_albedo"
+	$translucent						1
+	$bumpmap							"models/props/schrodinger_cube/lense_normal"
+	$surfaceprop						"glass"
+	
+	$envmap env_cubemap
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[ .1 .1 .1 ]"
+	$envmapconstrast 1
+}
