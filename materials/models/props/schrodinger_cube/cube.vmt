@@ -1,0 +1,5 @@
+VertexLitGeneric {
+	$basetexture						"models/props/schrodinger_cube/cube_albedo"
+	$surfaceprop						"metal"
+	$allowdiffusemodulation 0
+}
