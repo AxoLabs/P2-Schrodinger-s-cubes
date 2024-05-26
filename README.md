@@ -3,10 +3,11 @@ A Hammer logic-based implementation of the cut testing element, the Schrödinger
 
 ![Zrzut ekranu (1324)](https://github.com/AxoLabs/P2-Schrodinger-s-cubes/assets/125143965/6218701c-2824-4486-9881-017ba82cae2d)
 
-Note: This is the repository for the hammer version of Schrödinger's cubes. For the BEEMod package that adds them to the puzzlemaker, see https://github.com/AxoLabs/BEE2-Axos-Packages.
+Note: This is the repository for the hammer version of Schrödinger's cubes. For a BEEMod package that adds them to the puzzlemaker, see https://github.com/AxoLabs/BEE2-Axos-Packages.
 
 ## List of assets
-```- schrodinger_cube_clean.vmf - Clean dropperless instance
+```
+- schrodinger_cube_clean.vmf - Clean dropperless instance
 - schrodinger_cube_clean_dropper.vmf - Clean instance with a dropper
 - schrodinger_cube_over.vmf - Overgrown dropperless instance
 - schrodinger_cube_over_dropper.vmf - Overgrown instance with a dropper
