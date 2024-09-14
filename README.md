@@ -36,7 +36,7 @@ If used in a map, mod, or other project, credit is required. Credit either as Ax
 
 Textures and models were taken from Portal Revolution, so credit for them goes to Portal Revolution's developers.
 
-Outside of sourcemods and workshop maps, reuploading any files from this repository is forbidden.
+Outside of sourcemods and workshop maps, redistributing any files from this repository is forbidden.
 
 ## Installation
 Copy the `materials`, `models` and `particles` folders into one of Portal 2's content folders. Copy the contents of the `instances` folder into `Portal 2 -> sdk_content -> maps -> instances` or one of it's subfolders. Make sure to add `lightrail_platform_glow.pcf` to your particle manifest. You'll also need to pack the modified manifest into your map in order for the particle to show for other players.
