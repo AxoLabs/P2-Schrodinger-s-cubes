@@ -34,9 +34,9 @@ Note: This is the repository for the hammer version of Schrödinger's cubes. For
 ## Crediting
 If used in a map, mod, or other project, credit is required. Credit either as Axo or AxoLabs.
 
-Redistribution of these is allowed as long as long as the original download (this repository) is linked. When redistributing modified versions, please state what changes were made.
-
 Textures and models were taken from Portal Revolution, so credit for them goes to Portal Revolution's developers.
+
+Please do not reupload without permission.
 
 ## Installation
 Copy the `materials`, `models` and `particles` folders into one of Portal 2's content folders. Copy the contents of the `instances` folder into `Portal 2 -> sdk_content -> maps -> instances` or one of it's subfolders. Make sure to add `lightrail_platform_glow.pcf` to your particle manifest. You'll also need to pack the modified manifest into your map in order for the particle to show for other players.
